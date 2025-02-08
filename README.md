@@ -1,9 +1,9 @@
 # TheFuck
 
-You know when you're hacking away, having a great time, and then you run into an error you don't recognize? With this tool you can simply run `thefuck` right after the error message, and an LLM with process your query, your previous command, and the files in the current directory to give you some guidence on how to fix the error!
+You know when you're hacking away, having a great time, and then you run into an error you don't recognize? With this tool you can simply run `thefuck` right after the error message, and an LLM with process your query, your previous command, and the files in the current directory to give you some guidance on how to fix the error!
 
 > [!WARNING]
-> This tool is very new, very unstable, and likely to break. I've taken steps to ensure the LLM can't access anything it should, but there's a solid chance that I'm missed something. Use with caution.
+> This tool is very new, very unstable, and likely to break. I've taken steps to ensure the LLM can't access anything it shouldn't, but there's a solid chance that I'm missed something. Use with caution.
 
 ## Install
 
@@ -58,3 +58,4 @@ include-local-files: true
 ```shell
 thefuck --include-local-files
 ```
+
